@@ -1,0 +1,26 @@
+{
+  "name": "svelte-server-client-rendering",
+  "version": "1.0.0",
+  "description": "Example of server-side and client-side rendering in Svelte",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DmitryMyadzelets/svelte-server-client-rendering.git"
+  },
+  "keywords": [
+    "svelte",
+    "ssr",
+    "server-side",
+    "client-side",
+    "rendering"
+  ],
+  "author": "Dmitry Myadzelets",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmitryMyadzelets/svelte-server-client-rendering/issues"
+  },
+  "homepage": "https://github.com/DmitryMyadzelets/svelte-server-client-rendering#readme"
+}
