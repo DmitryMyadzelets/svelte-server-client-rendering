@@ -1,0 +1,12 @@
+p {
+  background-color: rgba(0, 0, 0, .1);
+  border: solid 1px lightgray;
+  border-radius: 4px;
+  padding: 1em;
+}
+
+code {
+  background-color: gold;
+  border-radius: 2px;
+  padding: .2em .4em;
+}
