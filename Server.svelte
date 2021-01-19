@@ -1,6 +1,5 @@
 <script>
   const time = new Date().toLocaleTimeString()
-  const name = __filename
 </script>
 
 <!DOCTYPE html>
@@ -15,7 +14,7 @@
 
 <body>
   <p>
-    This paragraph was rendered on the server at <code>{time}</code> by the script <code>{name}</code>. The script does it every time this page is requested.
+    This paragraph was rendered on the server at <code>{time}</code> by the script <code>{__filename}</code>. The script does it every time this page is requested.
   </p>
 </body>
 </html>
