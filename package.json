@@ -4,7 +4,9 @@
   "description": "Example of server-side and client-side rendering in Svelte",
   "main": "index.js",
   "scripts": {
+    "build": "rollup -c",
     "dev": "rollup -c -w",
+    "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,6 +29,7 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.1.0",
+    "@rollup/plugin-run": "^2.0.2",
     "rollup": "^2.36.2",
     "rollup-plugin-svelte": "^7.0.0"
   },
