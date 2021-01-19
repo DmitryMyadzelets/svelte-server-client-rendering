@@ -4,7 +4,6 @@ const
   fs = require('fs'),
   path = require('path')
 
-//const ssr = require('./ssr')
 // See https://svelte.dev/docs#svelte_register
 // and https://svelte.dev/docs#Server-side_component_API
 require('svelte/register')
