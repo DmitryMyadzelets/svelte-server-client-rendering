@@ -1,5 +1,6 @@
 <script>
   const time = new Date().toLocaleTimeString()
+  import html from './static.html'
 </script>
 
 <!DOCTYPE html>
@@ -13,8 +14,10 @@
 </head>
 
 <body>
+  {@html html.render().html}
   <p>
     This paragraph was rendered on the server at <code>{time}</code> by the script <code>{__filename}</code>. The script does it every time this page is requested.
   </p>
 </body>
+
 </html>
