@@ -10,7 +10,7 @@ require('svelte/register')
 const Server = require('./Server.svelte').default
 
 const config = {
-  port: 5000,
+  port: 0,
   publicDir: 'public'
 }
 
