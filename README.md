@@ -3,6 +3,7 @@ Example of the server-side, client-side and static rendering with
 [Svelte](https://svelte.dev/). For self-learning.
  
 ```javascript
+npm install
 npm run build
 npm start
 ```
