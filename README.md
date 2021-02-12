@@ -1,6 +1,6 @@
 # svelte-server-client-rendering
-Example of the server-side, client-side and static rendering with Svelte. For
-self-learning.
+Example of the server-side, client-side and static rendering with
+[Svelte](https://svelte.dev/). For self-learning.
  
 ```javascript
 npm run build
