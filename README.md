@@ -18,7 +18,7 @@ we use the [Rollup](https://rollupjs.org) bundler. It's controlled by the
 
 With `npm start` command you start a primitive server written in the [index.js](index.js) file.
 The **server-side rendering** occurs when the server is preparing a response to a client.
-The server creates `html` rendered by the [Server.svelte](Server.svelte) for the root `/` URL. During rendering  it uses the `static.html` which was rendered as a static content. 
+For the root `/` URL the server creates `html` rendered by the [Server.svelte](Server.svelte). During rendering  it uses the `static.html` which was rendered as a static content. 
 For any other URL our server assumes that static files are requested from the [public](public) directory.
 
 The **client-side rendering** happens when a browser loads and executes the `client.js` file.
