@@ -22,5 +22,5 @@ For any other URL our server assumes that static files are requested from the [p
 
 The **client-side rendering** happens when a browser loads and executes the `client.js` file.
 
-In the browser you'll see results of the all renderings. It will help you with
+In the browser you'll see results of the every rendering. It will help you with
 understanding where and when it was done.
