@@ -27,7 +27,7 @@ http.createServer((req, res) => {
     default:
       const fname = path.resolve(__dirname, config.publicDir, pathname.slice(1))
       fs.createReadStream(fname)
-        .on('error', ingore => {
+        .on('error', ignore => {
           res.statusCode = 404
           res.end('404 NOT FOUND')
         })
